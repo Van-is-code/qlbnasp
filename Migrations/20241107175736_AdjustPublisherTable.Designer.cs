@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Asp.Net_MvcWeb_Pj3.Aptech.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241107154031_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241107175736_AdjustPublisherTable")]
+    partial class AdjustPublisherTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,18 +33,15 @@ namespace Asp.Net_MvcWeb_Pj3.Aptech.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Boold_Type")
+                    b.Property<string>("Blood_Type")
                         .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("ExportDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("GenDer")
+                    b.Property<int>("Gender")
                         .HasColumnType("int");
 
-                    b.Property<float>("Height")
-                        .HasColumnType("real");
+                    b.Property<double>("Height")
+                        .HasColumnType("float");
 
                     b.Property<DateTime>("ImportDate")
                         .HasColumnType("datetime2");
@@ -56,8 +53,8 @@ namespace Asp.Net_MvcWeb_Pj3.Aptech.Migrations
                     b.Property<int>("PublisherId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("bit");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<int>("Year")
                         .HasColumnType("int");
@@ -88,13 +85,13 @@ namespace Asp.Net_MvcWeb_Pj3.Aptech.Migrations
 
             modelBuilder.Entity("Asp.Net_MvcWeb_Pj3.Aptech.Models.Patient", b =>
                 {
-                    b.HasOne("Asp.Net_MvcWeb_Pj3.Aptech.Models.Publisher", "Pub")
+                    b.HasOne("Asp.Net_MvcWeb_Pj3.Aptech.Models.Publisher", "Publisher")
                         .WithMany()
                         .HasForeignKey("PublisherId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Pub");
+                    b.Navigation("Publisher");
                 });
 #pragma warning restore 612, 618
         }
