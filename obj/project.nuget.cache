@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JsUO8LTr5Bxywj8yt0ULiaIIuvntX8Jiiadv3rHQPDZXpOOkjeVmlHPQU+VR4X2NQwAZCkumfXnO1PKxw0SwMw==",
+  "dgSpecHash": "v0R70M5eyDs=",
   "success": false,
   "projectFilePath": "D:\\SEM 3\\mvc\\ASP.NET_MvcWeb_QLBN_16.NGUYENTHANHVAN\\Asp.Net_MvcWeb_Pj3.Aptech.csproj",
   "expectedPackageFiles": [
@@ -111,7 +111,6 @@
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\netstandard.library\\2.0.1\\netstandard.library.2.0.1.nupkg.sha512",
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
-    "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512",
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
