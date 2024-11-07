@@ -27,4 +27,11 @@
     <PackageReference Include="Microsoft.AspNetCore.WebPages" Version="2.2.0" />
   </ItemGroup>
 
+  <Target Name="pipelinePreDeployCopyAllFilesToOneFolder">
+    <ItemGroup>
+      <FilesToCopy Include="**\*.*" Exclude="bin\**;obj\**;**\*.user;**\*.lock.json;**\*.suo;**\*.pdb;**\*.vscode;**\*.vs;**\*.git;**\*.svn;**\*.hg;**\*.DS_Store;**\*.idea;**\*.vspscc;**\*.vssscc" />
+    </ItemGroup>
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(PublishDir)%(RecursiveDir)" />
+  </Target>
+
 </Project>
