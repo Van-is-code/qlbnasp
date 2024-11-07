@@ -14,12 +14,14 @@
         "outputPath": "D:\\SEM 3\\mvc\\ASP.NET_MvcWeb_QLBN_16.NGUYENTHANHVAN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VAN NGUYEN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\VAN NGUYEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,10 +62,6 @@
               "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Session": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.WebPages": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
