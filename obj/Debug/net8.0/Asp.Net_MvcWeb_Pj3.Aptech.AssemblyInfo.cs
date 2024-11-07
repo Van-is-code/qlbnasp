@@ -13,6 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp.Net_MvcWeb_Pj3.Aptech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8765d3775237d31ee986f81c554118ff40c5eb12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.Net_MvcWeb_Pj3.Aptech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.Net_MvcWeb_Pj3.Aptech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
