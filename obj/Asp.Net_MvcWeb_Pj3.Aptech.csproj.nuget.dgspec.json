@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.WebPages": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Azure.Storage.Blob": {
               "target": "Package",
               "version": "[11.2.3, )"
