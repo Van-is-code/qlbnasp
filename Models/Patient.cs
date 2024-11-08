@@ -14,7 +14,7 @@ class Patient
     public int Id { get; set; }
     // mã định danh
 
-    public string Name { get; set; }
+    public string? Name { get; set; }
     // tựa đề
     
     public int Year { get; set; }
