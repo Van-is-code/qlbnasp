@@ -23,7 +23,7 @@ class Patient
     public double Height {get;set;}
     // image url, image link, địa chỉ online của ảnh
 
-    public string Blood_Type {get;set;}
+    public string Blood_Type {get;set;} = string.Empty;
 
     public int Gender {get;set;}
 
@@ -39,7 +39,7 @@ class Patient
     // // Thuộc Tính này chứa dữ liệu của bảng ngoại, nhưng dotnet không đọc
     // // tự động, mà mình phải viết tường minh bằng lệnh Inlucde(bn => bn.Khoa)
     [ForeignKey("PublisherId")]
-    public virtual Publisher Publisher { get; set; }
+    public virtual Publisher Publisher { get; set; } = new Publisher();
 
     // Trường thông tin phái sinh
 
