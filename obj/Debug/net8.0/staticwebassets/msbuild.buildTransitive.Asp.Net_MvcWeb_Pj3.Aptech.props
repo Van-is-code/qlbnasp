@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Asp.Net_MvcWeb_Pj3.Aptech.props" />
-</Project>

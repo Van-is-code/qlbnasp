@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "YthNRystllY=",
-  "success": false,
+  "dgSpecHash": "Z52gTXHjWXE=",
+  "success": true,
   "projectFilePath": "D:\\SEM 3\\mvc\\ASP.NET_MvcWeb_QLBN_16.NGUYENTHANHVAN\\Asp.Net_MvcWeb_Pj3.Aptech.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -152,15 +152,6 @@
     "C:\\Users\\VAN NGUYEN\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.AspNetCore.WebPages. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.AspNetCore.WebPages",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

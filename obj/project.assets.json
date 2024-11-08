@@ -6533,7 +6533,6 @@
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 8.0.8",
       "Microsoft.AspNetCore.Razor >= 2.2.0",
       "Microsoft.AspNetCore.Session >= 2.2.0",
-      "Microsoft.AspNetCore.WebPages >= 2.2.0",
       "Microsoft.Azure.Storage.Blob >= 11.2.3",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
@@ -6606,10 +6605,6 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
-          "Microsoft.AspNetCore.WebPages": {
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
           "Microsoft.Azure.Storage.Blob": {
             "target": "Package",
             "version": "[11.2.3, )"
@@ -6661,15 +6656,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.AspNetCore.WebPages. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Microsoft.AspNetCore.WebPages",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",
